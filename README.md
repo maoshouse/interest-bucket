@@ -1,8 +1,23 @@
-# Interest-bucket
+## The App
 
-This README outlines the details of collaborating on this Ember application.
+The purpose of this app is to organize and publicly display items of interest on the web. The initial intended use is for my personal website and have something like interests.mysite.com or mysite.com/interests. Here are some of the things I'd like to use it for...
 
-A short introduction of this app could easily go here.
+* Media - books, films, videos, articles, tutorials
+* Products
+* Companies
+* Initiatives (e.g., philanthropic, educational, policy, etc.)
+ 
+For media items I'd like to explore using tags for organization/grouping to make them more useful to myself and others. Some obvious tags might include: tutorials, coding, fiction, education, politics, etc.
+
+For company items I'd like to layer in other data over time. For instance, when I first became interested in a company, and whether I would have invested if I was able. This would make it possible to demonstrate a track record of sorts via a fantasy investment portfolio.
+
+## The Stack
+
+**Front-end** - Ember.js using ember-cli in particular along with Bootstrap 3.
+
+**Back-end** - Firebase will be the data store. Since resources and data-structure can be modeled in Ember, having to write a server-side app can be avoided entirely for a use-case like this one. Down the road I'd consider using my Evernote account as the backend, since I already collect and organize much of my web and knowledge consumption there anyway. 
+
+**Hosting** - Heroku for deploying the Ember app. Put it directly on S3 is also an option.
 
 ## Prerequisites
 
@@ -10,6 +25,7 @@ You will need the following things properly installed on your computer.
 
 * [Git](http://git-scm.com/)
 * [Node.js](http://nodejs.org/) (with NPM) and [Bower](http://bower.io/)
+* To-Be-Added - firebase data store instructions
 
 ## Installation
 
