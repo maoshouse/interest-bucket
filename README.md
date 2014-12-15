@@ -25,7 +25,7 @@ You will need the following things properly installed on your computer.
 
 * [Git](http://git-scm.com/)
 * [Node.js](http://nodejs.org/) (with NPM) and [Bower](http://bower.io/)
-* To-Be-Added - firebase data store instructions
+* Create a new app at [firebase.io](http://firebase.io) which will provide the backend data store
 
 ## Installation
 
@@ -33,6 +33,7 @@ You will need the following things properly installed on your computer.
 * change into the new directory
 * `npm install`
 * `bower install`
+* Rename or duplicate then rename `.env.example` to `.env` and update with your firebase app name created above
 
 ## Running / Development
 

@@ -3,6 +3,7 @@
 module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'interest-bucket',
+    firebase_instance: process.env.FIREBASE_APP_NAME,
     environment: environment,
     baseURL: '/',
     locationType: 'auto',
