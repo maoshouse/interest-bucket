@@ -1,3 +1,8 @@
 show.hbs
 
-{{title}}
+<h3>{{title}}</h3>
+<p>{{author}}</p>
+<p>{{description}}</p>
+<p>{{blurb}}</p>
+{{link-to "edit this book" "books.edit" this}}</br>
+<a href="#" {{action "delete" this}}>delete</a>
